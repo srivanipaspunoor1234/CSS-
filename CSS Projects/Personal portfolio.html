@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="portfolio1.css">
+</head>
+<body>
+
+    <header>
+        <h1>Your Name</h1>
+    </header>
+
+    <nav>
+        <ul class="list">
+            <li><a href="#about" class="one">About Me</a></li>
+            <li><a href="#projects" class="one">Projects</a></li>
+            <li><a href="#contact" class="one">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" style="padding: 20px 0px 20px 20px;">
+        <h2>About Me</h2>
+        <p>Introduce yourself and your career goals here.</p>
+    </section>
+
+    <section id="projects" style="padding:0px  0px 20px 20px;">
+        <h2 style="padding-top: 30px;">Projects</h2>
+        <ul>
+            <li>
+                <h3>Project 1</h3>
+                <p>Description</p>
+            </li>
+            <li>
+                <h3>Project 2</h3>
+                <p>Description</p>
+            </li>
+            <li>
+                <h3>Project 3</h3>
+                <p>Description</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="skills" style="padding: 0px 0px 30px 20px;">
+        <h2 style="padding-top: 30px;">Skills</h2>
+        <h3>Skill Category</h3>
+        <p>Description</p>
+        <ul>
+            <li>Web Development: HTML, CSS, JavaScript</li>
+            <li>Graphic Design: Photoshop, Illustrator</li>
+        </ul>
+    </section>
+
+    <section id="contact" style="padding: 0px 0px 30px 20px;">
+        <h2 style="padding-top: 30px;">Contact</h2>
+        <form action="#" method="post" class="move">
+            <label for="name" >Name:</label><br>
+            <input type="text" id="name" name="name" size="50%"><br>
+            <label for="email" >Email:</label><br>
+            <input type="email" id="email" name="email" size="50%"><br>
+            <label for="subject" >Subject:</label><br>
+            <input type="text" id="subject" name="subject" size="50%"><br>
+            <label for="message" >Message:</label><br>
+            <textarea id="message" name="message" rows="2" cols="50"></textarea><br>
+            <input type="submit" value="Submit" id="sub">
+        </form>
+    </section>
+
+</body>
+</html>

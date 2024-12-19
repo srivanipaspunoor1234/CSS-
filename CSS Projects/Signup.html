@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup Form</title>
+  <link rel="stylesheet" href="signup.css">
+
+</head>
+<body>
+   
+  <div class="form-container">
+   
+    <h2 style="text-align: center;">Please signup here !!!</h2>
+    <form action="#" method="post">
+      <div class="form-group">
+        <label for="username">Enter UserName:</label><br>
+        <input type="text" id="username" name="username" required>
+      </div>
+      &nbsp;
+      <div class="form-group">
+        <label for="password">Enter Password:</label><br>
+        <input type="password" id="password" name="password" required>
+      </div>
+      &nbsp;
+
+      <div class="form-group">
+        <label for="confirm-password">Confirm Password:</label><br>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+      </div>
+      &nbsp;
+
+      <div class="form-group gender-group">
+        <span>Select Gender:</span>
+        <label><input type="radio" name="gender" value="male"> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label>
+        <label><input type="radio" name="gender" value="other"> Other</label>
+      </div>
+      &nbsp;
+
+      <div class="form-group">
+        <label for="mobile">Enter Mobile Number:</label><br>
+        <input type="tel" id="mobile" name="mobile" required>
+      </div>
+
+      &nbsp;
+
+      <div class="form-group">
+        <label for="dob">Enter DOB:</label><br>
+        <input type="date" id="dob" name="dob" required>
+      </div>
+    
+      &nbsp;
+       
+      <div class="form-group">
+        <label for="address">Enter Address:</label><br>
+        <input type="text" id="address" name="address" required>
+      </div>
+
+      &nbsp;
+
+      <div class="form-group qualification-group">
+        <span>Select Qualification:</span>
+        <label><input type="checkbox" name="qualification" value="bachelors"> Bachelors</label>
+        <label><input type="checkbox" name="qualification" value="masters"> Masters</label>
+        <label><input type="checkbox" name="qualification" value="phd"> PhD</label>
+      </div>
+
+      &nbsp;
+
+      <div class="form-group skills-group">
+        <span>Choose Skills:</span>
+        <label><input type="checkbox" name="skills" value="html"> HTML</label>
+        <label><input type="checkbox" name="skills" value="css"> CSS</label>
+        <label><input type="checkbox" name="skills" value="javascript"> JavaScript</label>
+      </div>
+
+      &nbsp;
+
+      <div class="form-group">
+        <span>Preferred Shift:</span>
+        <label><input type="checkbox" name="shift" value="day"> Day Shift</label>
+        <label><input type="checkbox" name="shift" value="night"> Night Shift</label>
+        <label><input type="checkbox" name="shift" value="day-night"> Day/Night Shift</label>
+      </div>
+
+      &nbsp;
+
+      <div class="form-group">
+        <label for="resume">Upload your Resume:</label><br>
+        <input type="file" id="resume" name="resume"  required>
+      </div><br>
+
+      &nbsp;
+
+      <button type="submit" class="upload-btn" >Submit</button>
+      &nbsp;
+
+    </form>
+    
+  </div>
+</body>
+</html>

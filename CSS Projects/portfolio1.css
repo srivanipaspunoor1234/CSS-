@@ -1,0 +1,49 @@
+header{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    font-size: small;
+    padding: 5px;
+}
+body{
+    background-color:rgba(190, 185, 185,0.5) ;
+}
+section{
+    background-color: white;
+    padding-left: 5px;
+    margin: auto;
+}
+.one{
+    text-decoration: none;
+    color: black;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 10px;
+    justify-content: center;
+   
+}
+form{
+   text-align: center;
+ 
+   
+}
+input{
+    margin: 15px 0px 5px 0px;
+}
+#name,#email,#subject,#message{
+    border-radius: 3px;
+    padding-top: 6px;
+}
+#sub{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    
+
+}
+#hav{
+    text-align: left;
+}

@@ -1,0 +1,25 @@
+body{
+    background-color:rgba(190, 185, 185,0.5) ;
+}
+
+.form-group{
+    padding-bottom: 25px;
+    border-radius: 10px;
+}
+#resume{
+    padding-top: 40px;
+}
+.upload-btn{
+ background-color: rgb(12, 144, 12);
+ border-radius: 5px;
+ color: white;
+ padding: 8px;
+}
+#username,#password,#confirm-password,#mobile,#dob,#address{
+ width: 100%;
+ padding: 6px;
+ border-radius: 3px;
+}
+.upload-btn{
+    width: 100%;
+}

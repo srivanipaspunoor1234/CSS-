@@ -1,0 +1,20 @@
+body{
+    background-color:rgba(190, 185, 185,0.5) ;
+}
+.form-input{
+    padding-bottom: 15px;
+}
+#name,#email,#telephone,#knowing,#age{
+    padding: 6px;
+    border-radius: 6px;
+    width: 100%;
+}
+.submit-btn{
+background-color: rgb(34, 181, 34);
+color: white;
+padding: 5px;
+border-radius: 6px;
+}
+.submit-btn{
+    width: 100%;
+}
